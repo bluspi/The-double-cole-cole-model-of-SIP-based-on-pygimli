@@ -1,6 +1,6 @@
 from pygimli.physics.SIP import SIPSpectrum
 import pandas as pd
-
+import numpy as np
 
 # example for fitting by double cole-cole model
 loadPhi = pd.read_excel("example for fit.xlsx", sheet_name='phase')
